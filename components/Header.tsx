@@ -13,7 +13,7 @@ function Header() {
         src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?width=640&crop=smart&auto=webp&s=bfd318557bf2a5b3602367c9c4d9cd84d917ccd5"
         alt="logo-mobile"
       />
-      <div className="mx-3 flex h-[35px] w-[300px] items-center bg-gray-100 pl-3 hover:border-solid hover:border-blue-500 hover:bg-white md:w-[500px]">
+      <div className="mx-3 flex h-[35px] w-[200px] items-center bg-gray-100 pl-3 hover:border-solid hover:border-blue-500 hover:bg-white md:w-[500px]">
         <i className="fas fa-search"></i>
         <input
           className="placeholder:text-md border-none bg-transparent pl-3 outline-none"
@@ -34,7 +34,7 @@ function Header() {
             </h3>
           </Link>
         </div>
-        <div className="cursor-pointer space-x-2 px-3 py-1 hover:border-solid hover:border-gray-300">
+        <div className="cursor-pointer space-x-3 px-3 hover:border-solid hover:border-gray-300">
           <i className="fas fa-user"></i>
           <i className="fas fa-arrow-down"></i>
         </div>
