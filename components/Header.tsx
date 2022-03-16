@@ -2,14 +2,14 @@ import Link from 'next/link';
 import React from 'react';
 function Header() {
   return (
-    <div className="flex items-center justify-between bg-white px-5 py-3 shadow-md">
+    <div className="flex w-full items-center justify-between bg-white py-5 shadow-md">
       <img
-        className="hidden w-[100px] md:inline-flex"
+        className="ml-5 hidden w-[100px] md:inline-flex"
         src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png"
         alt="logo-web"
       />
       <img
-        className="inline-flex w-[35px] md:hidden"
+        className="ml-5 inline-flex w-[35px] md:hidden"
         src="https://external-preview.redd.it/iDdntscPf-nfWKqzHRGFmhVxZm4hZgaKe5oyFws-yzA.png?width=640&crop=smart&auto=webp&s=bfd318557bf2a5b3602367c9c4d9cd84d917ccd5"
         alt="logo-mobile"
       />
