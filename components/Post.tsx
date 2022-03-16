@@ -4,7 +4,7 @@ function Post() {
   return (
     <div className="mx-auto my-5 grid w-max items-center bg-white">
       <img
-        className="w-[450px] lg:w-[550px]"
+        className="w-[300px] lg:w-[550px]"
         src="https://images.pexels.com/photos/910311/pexels-photo-910311.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         alt="post"
       />
